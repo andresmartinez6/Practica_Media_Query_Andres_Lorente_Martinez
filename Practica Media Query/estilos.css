@@ -1,0 +1,70 @@
+body{
+    background:url(imgs/hardware2.jpg);
+    background-size: 100%;
+    margin: 0px;
+}
+    
+
+#procesadores{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+}
+
+.intel>div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color:white
+}
+
+.intel>h2{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color:white
+}
+
+.intel>div>img{
+    box-sizing: border-box;
+    width: 50%;
+    padding-right: 0.5em;
+}
+
+.intel>div>p{
+    box-sizing: border-box;
+    width: 50%;
+    padding-right: 0.5em;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+@media (min-width: 800px) and (max-width: 1200px){
+    #procesadores{
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1200px){
+    .intel>div>img{
+        width: 100%;
+    }
+@media (max-width: 576px){
+}
+
+    .intel>div>p{
+        width: 100%;
+        padding-left: 0px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    button{
+        width: 100%;
+        border-radius: .5rem ;
+        cursor:pointer;
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+    }
+    
+
+}
